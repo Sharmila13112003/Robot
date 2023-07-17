@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Document</title>
+        <style>
+            body{
+                background-image: url('https://tse3.mm.bing.net/th?id=OIP.bGMCF76DR2ZWZj1BGYIpCgHaEK&pid=Api&P=0&h=180');
+                background-repeat: no-repeat;
+                background-size: 100% 430%;
+                height: 150px; 
+            }
+            .bod{
+                position: relative;
+                top: 130px;
+                animation-name: robo;
+                animation-duration:5s;
+                /* animation-fill-mode: backwards; */
+                animation-iteration-count: infinite;
+            }
+            @keyframes robo{
+                0%{
+                    position: relative;
+                    left:0px;
+                }
+                20%{
+                    position: relative;
+                    left:200px;
+                }
+                40%{
+                    position: relative;
+                    left:400px;
+                }
+                50%{
+                    position: relative;
+                    left:600px;
+                }
+                60%{
+                    position: relative;
+                    left:800px;
+                }
+                80%{
+                    position: relative;
+                    left:1000px;
+                }
+                100%{
+                    position: relative;
+                    left:1200px;
+                }
+            }
+            
+            h1{
+                color: blue;
+                 text-align:center ;
+            }
+            .h{
+                height: 150px;
+               width: 150px;
+               border-radius: 40%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               position: relative;
+              left: 100px;
+              z-index: -1;
+            }
+            .e1{
+                height: 30px;
+               width: 30px;
+               border-radius: 100%;
+               border: 5px solid black;
+               position: relative;
+               top: 30px;
+              left: 30px;
+              background:linear-gradient(red,black);
+              animation-name: blink1;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+         @keyframes blink1{
+            50%{
+              transform: rotate(360deg);
+            }
+         }
+            .e2{
+                height: 30px;
+               width: 30px;
+               border-radius: 100%;
+               border: 5px solid black;
+               position: relative;
+               top: -10px;
+              left: 80px;
+              background:linear-gradient(red,black);
+              animation-name: blink2;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes blink2{
+                50%{
+                    transform: rotate(360deg);
+                }
+            }
+            .b{
+                height: 200px;
+               width: 150px;
+               border-radius: 40%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              border-bottom-left-radius:30%  ;
+              border-bottom-right-radius:30%  ;
+               position: relative;
+              left: 102px;
+
+            }
+            .l1{
+                height:40px;
+               width: 15px;
+               border-radius: 10%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              border-bottom-left-radius:30%  ;
+              border-bottom-right-radius:30%  ;
+               position: relative;
+               top: -4px;
+              left: 145px;
+              border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              z-index: -1;
+            }
+            .l2{
+                height: 40px;
+               width: 15px;
+               border-radius: 10%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              border-bottom-left-radius:30%  ;
+              border-bottom-right-radius:30%  ;
+               position: relative;
+               top: -50px;
+              left: 190px;
+              border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              z-index: -1;
+            }
+            .ba1{
+                height: 13px;
+                width: 13px;
+                border-radius: 50%;
+                border: 3px solid blue;
+                position: relative;
+                bottom: 57px;
+                left: 145px;
+                background: linear-gradient(blue,black);
+                animation-name: r1;
+              animation-duration: 1s;
+              animation-delay: 0s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+             
+            }
+         @keyframes r1{
+            100%{
+              transform: rotate(360deg);
+            }
+         }
+            .ba2{
+                height: 13px;
+                width: 13px;
+                border-radius: 50%;
+                border: 3px solid blue;
+                position: relative;
+                bottom: 74px;
+                left: 190px;
+                background: linear-gradient(blue,black);
+                animation-name: r2;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+             
+            }
+            @keyframes r2{
+            100%{
+              transform: rotate(360deg);
+            }
+        }
+            .m{
+                height: 30px;
+                width: 50px;
+                border-radius: 20%;
+                background: radial-gradient(pink,red);
+                position: relative;
+                top: 6px;
+                left: 50px;
+                border: 3px solid black;
+            }
+            .t1{
+                background-color: white;
+                height: 29px;
+                width: 0px;
+                position: relative;
+                top: 0px;
+                left: 8px;
+                border: 2px solid black;
+            }
+            .t2{
+                background-color: white;
+                height: 29px;
+                width: 0px;
+                position: relative;
+                top: -34px;
+                left: 23px;
+                border: 2px solid black;
+            }
+            .t3{
+                background-color: white;
+                height: 29px;
+                width: 0px;
+                position: relative;
+                top: -65px;
+                left: 36px;
+                border: 2px solid black;
+            }
+            .h1{
+                height: 85px;
+               width: 15px;
+               border-radius: 10%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              border-bottom-left-radius:30%  ;
+              border-bottom-right-radius:30%  ;
+               position: relative;
+               top: -300px;
+              left: 75px;
+              animation-name: han1;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes han1{
+                50%{
+                    transform: rotate(20deg);
+                }
+            }
+            .h2{
+                height: 85px;
+               width: 15px;
+               border-radius: 10%;
+               border: 1px solid black;
+               background: radial-gradient(blue,black);
+               border-top-left-radius:30%  ;
+              border-top-right-radius:30%  ;
+              border-bottom-left-radius:30%  ;
+              border-bottom-right-radius:30%  ;
+               position: relative;
+               top: -390px;
+              left: 265px;
+              animation-name: han2;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes han2{
+                50%{
+                    transform: rotate(-20deg);
+                }
+            }
+        
+            .a1{
+                height: 70px;
+               width: 0px;
+               border-radius: 10%;
+               border: 5px solid black;
+               position: relative;
+               bottom: 719px;
+              left: 205px;
+            }
+            .a2{
+                height: 70px;
+               width: 0px;
+               border-radius: 10%;
+               border: 5px solid black;
+               position: relative;
+               bottom: 800px;
+              left: 140px;
+            }
+            .bl1{
+                height: 15px;
+               width: 15px;
+               border-radius: 100%;
+               border: 5px solid orange;
+               background-color: darkorange;
+               position: relative;
+               bottom: 900px;
+              left: 133px;
+              animation-name: bl1;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes bl1{
+                10%{
+                    transform:scale(-1);
+                }
+            }
+            .bl2{
+                height: 15px;
+               width: 15px;
+               border-radius: 100%;
+               border: 5px solid orange;
+               background-color: darkorange;
+               position: relative;
+               bottom: 925px;
+              left: 199px;
+              animation-name: bl2;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes bl2{
+                10%{
+                    transform:scale(-1);
+                }
+            }
+            .b1{
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                border: 5px solid orange;
+               background-color: darkorange;
+                position: relative;
+                top: 80px;
+                left: 60px;
+                animation-name: bl2;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-fill-mode: backwards;
+              animation-iteration-count: infinite;
+            }
+            @keyframes bl2{
+                10%{
+                    transform:scale(-1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1><i><u>MOVING ROBOT</u></i></h1>
+        <div class="bod">
+          <div class="h">
+            <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="m">
+                <div class="t1"></div>
+                <div class="t2"></div>
+                <div class="t3"></div>
+            </div>
+          </div>
+          <div class="b">
+            <div class="b1"></div>
+          </div>
+          <div class="l1"></div>
+          <div class="l2"></div>
+          <div class="ba1"></div>
+          <div class="ba2"></div>
+          <div class="h1"></div>
+          <div class="h2"></div>
+          <div class="a1"></div>
+          <div class="a2"></div>
+          <div class="bl1"></div>
+          <div class="bl2"></div>
+        </div>
+        
+    </body>
+</html>
